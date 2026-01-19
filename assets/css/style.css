@@ -1,0 +1,67 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+header {
+    text-align: left;
+    padding: 1px 0;
+    background-color: #bbb;
+    color: white;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 13px;
+}
+.icon-clavier {
+    width: 5vw;
+    max-width: 64px;
+    min-width: 32px;
+    height: auto;
+    margin-left: 2rem;
+}
+.dashboard{
+  display: flex;
+}
+.stats{
+  display: flex;
+}
+.keyboard {
+    width: max-content;
+    margin: 40px auto;
+    background: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.key {
+    background: white;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    width: 45px;
+    height: 45px;
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: default;
+    user-select: none;
+}
+
+.key:hover {
+    background-color: #e0e0e0;
+}
+
+.key-wide {
+    width: 80px;
+}
+
+.key-space {
+    width: 300px;
+}
